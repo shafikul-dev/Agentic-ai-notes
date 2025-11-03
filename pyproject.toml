@@ -2,13 +2,14 @@
 name = "langgraph-project"
 version = "1.0.0"
 description = "LangGraph examples and tutorials with Python and JavaScript implementations"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = [
     "langchain-openai>=0.1.0",
     "langchain-core>=0.1.0",
     "langgraph>=0.1.0",
     "python-dotenv>=1.0.0",
     "nest-asyncio>=1.6.0",
+    "crewai>=0.1.0",
 ]
 
 [project.optional-dependencies]
