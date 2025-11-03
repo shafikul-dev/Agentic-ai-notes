@@ -1,0 +1,26 @@
+[project]
+name = "langgraph-project"
+version = "1.0.0"
+description = "LangGraph examples and tutorials with Python and JavaScript implementations"
+requires-python = ">=3.8"
+dependencies = [
+    "langchain-openai>=0.1.0",
+    "langchain-core>=0.1.0",
+    "langgraph>=0.1.0",
+    "python-dotenv>=1.0.0",
+    "nest-asyncio>=1.6.0",
+]
+
+[project.optional-dependencies]
+dev = []
+
+# Build system (optional but recommended for Python projects)
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# UV-specific: After creating this file, run:
+#   uv lock          # Generate uv.lock with exact versions
+#   uv sync          # Install packages using lock file
+# This ensures reproducible installations across all environments
+
