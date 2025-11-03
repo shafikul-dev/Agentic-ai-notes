@@ -248,3 +248,5 @@ if __name__ == "__main__":
     print("Strategic: Planned → Evaluated → Adapted (if needed) → Executed")
     print("\nThe 'structured approach' adds thinking before acting!")
 
+
+
